@@ -1,4 +1,4 @@
-package javabasics;
+package _2statements;
 
 public class _7LearningIfElseStatement {
 
