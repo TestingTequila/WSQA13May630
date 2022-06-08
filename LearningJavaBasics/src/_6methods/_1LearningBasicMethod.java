@@ -7,9 +7,6 @@ public class _1LearningBasicMethod {
 	   int a;
 	   int b;
 	   
-	   private int ssn;
-	   private int atmPin;
-	   
 	   public  void addition()
 	   {
 		   int sum =a+b;
