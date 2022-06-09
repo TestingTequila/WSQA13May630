@@ -14,11 +14,26 @@ public class _2LearningArraysWithUnknownValues {
 		numbers[6]=55;
 		numbers[2]=76;
 		numbers[4]=44;
+		//numbers[7]=82;
 	
 		
 		for(int num: numbers)
 		{
-			System.out.println(num);
+			//System.out.println(num);
+		}
+		
+		
+		String[] menus = new String[5];
+		menus[0]="HOME";
+		menus[1]="GIFT CERTIFICATES";
+		menus[2]="BRANDS";
+		menus[3]="BLOGS";
+		menus[4]="CONTACT US";
+		
+		for(String menu: menus)
+		{
+			// Code to click on each menu
+			System.out.println(menu);
 		}
 		
 		
