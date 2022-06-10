@@ -1,4 +1,4 @@
-package _collections;
+package _8collections;
 
 import java.util.HashSet;
 import java.util.Iterator;

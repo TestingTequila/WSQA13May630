@@ -1,4 +1,4 @@
-package _collections;
+package _8collections;
 
 import java.util.ArrayList;
 import java.util.Iterator;
