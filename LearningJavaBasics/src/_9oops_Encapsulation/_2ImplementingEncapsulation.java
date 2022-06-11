@@ -1,4 +1,4 @@
-package _9oops;
+package _9oops_Encapsulation;
 
 public class _2ImplementingEncapsulation {
 
