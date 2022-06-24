@@ -112,5 +112,6 @@
 	<classpathentry kind="lib" path="C:/Users/91886/Downloads/WebDriverManager/jna-5.8.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/91886/Downloads/WebDriverManager/slf4j-api-1.7.36.jar"/>
 	<classpathentry kind="lib" path="C:/Users/91886/Downloads/WebDriverManager/webdrivermanager-5.1.0.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
