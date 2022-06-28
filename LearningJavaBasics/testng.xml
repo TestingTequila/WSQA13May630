@@ -3,6 +3,7 @@
 <suite name="Suite1">
 	<test thread-count="5" name="Test1">
 		<parameter name="url" value="http://janbaskdemo.com/" />
+		<parameter name="browserType" value="Chrome" />
 		<classes>
 			<class name="_23POMWithPFMAndTestNG._5Login" />
 		</classes>
