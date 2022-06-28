@@ -14,6 +14,9 @@ public class _1LearningArraysWithKnownValues {
 		// WAP to print all the numbers mentioned above
 		
 		int[] numbers = { 12, 14, 15, 17, 98, 11, 22, 33, 87, 99 };
+		
+		Object[] numbers2 = { 12, 14, 15, 17, 98, 11, 22, 33, 87, 99, true, "Jason", 'c', 0.34 };
+		
 		System.out.println("=============For Loop Result======================================");
 		
 		for(int x=0; x<numbers.length; x=x+3)

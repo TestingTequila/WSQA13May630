@@ -3,12 +3,13 @@ package _23POMWithPFMAndTestNG;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class _4LoginWithGenrics extends WebElementFactory{
 
-		@Test(priority=2)
-		public void Login1() throws InterruptedException
+		@Test(priority=2, dataProvider="getEmailAndPassword")
+		public void Login1(String emailId, String password) throws InterruptedException
 		{
 			//3. Click on My Account Icon
 			_1YourStore ys = new _1YourStore(driver);
@@ -19,10 +20,10 @@ public class _4LoginWithGenrics extends WebElementFactory{
 			
 			//5. Enter correct email id
 			_2AccountLogin al = new _2AccountLogin(driver);
-			al.enterEmailId();
+			al.enterEmailId(emailId);
 			
 			//6. Enter correct password
-			al.enterPassword();
+			al.enterPassword(password);
 			
 			//7. Click on Login button
 			al.clickOnLoginButton();
@@ -32,8 +33,8 @@ public class _4LoginWithGenrics extends WebElementFactory{
 			ma.verifyLoginStatus();
 		}
 		
-		@Test(priority=3, enabled=false)
-		public void Login2() throws InterruptedException
+		@Test(priority=3, enabled=false, dataProvider="getEmailAndPassword")
+		public void Login2(String emailId, String password) throws InterruptedException
 		{
 			//3. Click on My Account Icon
 			_1YourStore ys = new _1YourStore(driver);
@@ -44,10 +45,10 @@ public class _4LoginWithGenrics extends WebElementFactory{
 			
 			//5. Enter correct email id
 			_2AccountLogin al = new _2AccountLogin(driver);
-			al.enterEmailId();
+			al.enterEmailId(emailId);
 			
 			//6. Enter correct password
-			al.enterPassword();
+			al.enterPassword(password);
 			
 			//7. Click on Login button
 			al.clickOnLoginButton();
@@ -57,7 +58,7 @@ public class _4LoginWithGenrics extends WebElementFactory{
 			ma.verifyLoginStatus();
 		}
 		
-		@Test(priority=1)
+		@Test(priority=1, enabled=false)
 		public void registration()
 		{
 			// 3. Click on My Account Icon
@@ -93,7 +94,13 @@ public class _4LoginWithGenrics extends WebElementFactory{
 		}
 		
 
-
+		@DataProvider
+		public Object[][] getEmailAndPassword()
+		{
+			Object[][] emailPass= {{"kerrie.wright@gmail.com", "test@1234"}, {"ben.fletcher@gmail.com", "test@1234"}, {"lee.pikhaver@gmail.com", "test@1234"}};
+			return emailPass;
+			
+		}
 
 	}
 

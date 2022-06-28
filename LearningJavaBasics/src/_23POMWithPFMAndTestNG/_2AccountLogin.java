@@ -15,12 +15,12 @@ public class _2AccountLogin extends WebElementFactory{
 	
 
 	
-	public void enterEmailId()
+	public void enterEmailId(String emailId)
 	{
-		emailTextBox.sendKeys(email);	
+		emailTextBox.sendKeys(emailId);	
 	}
 	
-	public void enterPassword()
+	public void enterPassword(String password)
 	{
 		passwordTextBox.sendKeys(password);
 	}
