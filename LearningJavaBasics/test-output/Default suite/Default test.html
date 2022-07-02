@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/3</td>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 28 08:08:51 IST 2022</td>
+<td>Started on:</td><td>Thu Jun 30 06:53:33 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (68 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (160 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,334 +67,88 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='_23POMWithPFMAndTestNG._5Login.launchApplication()'><b>launchApplication</b><br>Test class: _23POMWithPFMAndTestNG._5Login</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;url&apos; is required by BeforeMethod on method launchApplication but has not been marked @Optional or defined
-in C:\Users\91886\AppData\Local\Temp\testng-eclipse--883015755\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:270)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1536471117", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1536471117'><pre>org.testng.TestNGException: 
-Parameter &apos;url&apos; is required by BeforeMethod on method launchApplication but has not been marked @Optional or defined
-in C:\Users\91886\AppData\Local\Temp\testng-eclipse--883015755\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:270)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>-1656383931</td>
-<td>_23POMWithPFMAndTestNG._5Login@6e20b53a</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='_23POMWithPFMAndTestNG._5Login.closeApplication()'><b>closeApplication</b><br>Test class: _23POMWithPFMAndTestNG._5Login</td>
+<td title='_22testngDummyCode.LearningtestNg.ContactUs()'><b>ContactUs</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
 <td></td>
-<td>-1656383931</td>
-<td>_23POMWithPFMAndTestNG._5Login@6e20b53a</td></tr>
-<tr>
-<td title='_23POMWithPFMAndTestNG._5Login.closeApplication()'><b>closeApplication</b><br>Test class: _23POMWithPFMAndTestNG._5Login</td>
-<td></td>
-<td>-1656383931</td>
-<td>_23POMWithPFMAndTestNG._5Login@6e20b53a</td></tr>
-<tr>
-<td title='_23POMWithPFMAndTestNG._5Login.launchApplication()'><b>launchApplication</b><br>Test class: _23POMWithPFMAndTestNG._5Login</td>
-<td></td>
-<td>-1656383931</td>
-<td>_23POMWithPFMAndTestNG._5Login@6e20b53a</td></tr>
-<tr>
-<td title='_23POMWithPFMAndTestNG._5Login.launchApplication()'><b>launchApplication</b><br>Test class: _23POMWithPFMAndTestNG._5Login</td>
-<td></td>
-<td>-1656383931</td>
-<td>_23POMWithPFMAndTestNG._5Login@6e20b53a</td></tr>
-<tr>
-<td title='_23POMWithPFMAndTestNG._5Login.closeApplication()'><b>closeApplication</b><br>Test class: _23POMWithPFMAndTestNG._5Login</td>
-<td></td>
-<td>-1656383931</td>
-<td>_23POMWithPFMAndTestNG._5Login@6e20b53a</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='_23POMWithPFMAndTestNG._5Login.Login()'><b>Login</b><br>Test class: _23POMWithPFMAndTestNG._5Login<br>Parameters: lee.pikhaver@gmail.com, test@1234</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;url&apos; is required by BeforeMethod on method launchApplication but has not been marked @Optional or defined
-in C:\Users\91886\AppData\Local\Temp\testng-eclipse--883015755\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:270)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace940584193", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace940584193'><pre>org.testng.TestNGException: 
-Parameter &apos;url&apos; is required by BeforeMethod on method launchApplication but has not been marked @Optional or defined
-in C:\Users\91886\AppData\Local\Temp\testng-eclipse--883015755\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:270)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
 <td>0</td>
-<td>_23POMWithPFMAndTestNG._5Login@6e20b53a</td></tr>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
 <tr>
-<td title='_23POMWithPFMAndTestNG._5Login.Login()'><b>Login</b><br>Test class: _23POMWithPFMAndTestNG._5Login<br>Parameters: kerrie.wright@gmail.com, test@1234</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;url&apos; is required by BeforeMethod on method launchApplication but has not been marked @Optional or defined
-in C:\Users\91886\AppData\Local\Temp\testng-eclipse--883015755\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:270)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1239807799", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1239807799'><pre>org.testng.TestNGException: 
-Parameter &apos;url&apos; is required by BeforeMethod on method launchApplication but has not been marked @Optional or defined
-in C:\Users\91886\AppData\Local\Temp\testng-eclipse--883015755\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:270)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
+<td title='_22testngDummyCode.LearningtestNg.ContactUs()'><b>ContactUs</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
+<td></td>
 <td>0</td>
-<td>_23POMWithPFMAndTestNG._5Login@6e20b53a</td></tr>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
 <tr>
-<td title='_23POMWithPFMAndTestNG._5Login.Login()'><b>Login</b><br>Test class: _23POMWithPFMAndTestNG._5Login<br>Parameters: ben.fletcher@gmail.com, test@1234</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;url&apos; is required by BeforeMethod on method launchApplication but has not been marked @Optional or defined
-in C:\Users\91886\AppData\Local\Temp\testng-eclipse--883015755\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:270)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace925308434", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace925308434'><pre>org.testng.TestNGException: 
-Parameter &apos;url&apos; is required by BeforeMethod on method launchApplication but has not been marked @Optional or defined
-in C:\Users\91886\AppData\Local\Temp\testng-eclipse--883015755\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:270)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
+<td title='_22testngDummyCode.LearningtestNg.loginWithNoCredentials()'><b>loginWithNoCredentials</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
+<td></td>
 <td>0</td>
-<td>_23POMWithPFMAndTestNG._5Login@6e20b53a</td></tr>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
+<tr>
+<td title='_22testngDummyCode.LearningtestNg.ContactUs()'><b>ContactUs</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
+<td></td>
+<td>0</td>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
+<tr>
+<td title='_22testngDummyCode.LearningtestNg.registration()'><b>registration</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
+<td></td>
+<td>0</td>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
+<tr>
+<td title='_22testngDummyCode.LearningtestNg.loginWithInvalidCredetinals()'><b>loginWithInvalidCredetinals</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
+<td></td>
+<td>0</td>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
+<tr>
+<td title='_22testngDummyCode.LearningtestNg.ContactUs()'><b>ContactUs</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
+<td></td>
+<td>0</td>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
+<tr>
+<td title='_22testngDummyCode.LearningtestNg.ContactUs()'><b>ContactUs</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
+<td></td>
+<td>0</td>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
+<tr>
+<td title='_22testngDummyCode.LearningtestNg.ContactUs()'><b>ContactUs</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
+<td></td>
+<td>0</td>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
+<tr>
+<td title='_22testngDummyCode.LearningtestNg.ContactUs()'><b>ContactUs</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
+<td></td>
+<td>0</td>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
+<tr>
+<td title='_22testngDummyCode.LearningtestNg.login()'><b>login</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
+<td></td>
+<td>0</td>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
+<tr>
+<td title='_22testngDummyCode.LearningtestNg.ContactUs()'><b>ContactUs</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
+<td></td>
+<td>0</td>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
+<tr>
+<td title='_22testngDummyCode.LearningtestNg.ContactUs()'><b>ContactUs</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
+<td></td>
+<td>0</td>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
+<tr>
+<td title='_22testngDummyCode.LearningtestNg.loginWithInvalidCredentails()'><b>loginWithInvalidCredentails</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
+<td></td>
+<td>0</td>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
+<tr>
+<td title='_22testngDummyCode.LearningtestNg.ContactUs()'><b>ContactUs</b><br>Test class: _22testngDummyCode.LearningtestNg</td>
+<td></td>
+<td>0</td>
+<td>_22testngDummyCode.LearningtestNg@4cc451f2</td></tr>
 </table><p>
 </body>
 </html>

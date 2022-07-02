@@ -53,18 +53,29 @@ public class LearningtestNg {
 		System.out.println("Test Case : This will log in into the application");
 	}
 	
+	@Test(groups="Smoke")
+	public void loginWithInvalidCredetinals()
+	{
+		System.out.println("Test Case : This will log in into the application");
+	}
+	
+	@Test( groups="Smoke")
+	public void loginWithNoCredentials()
+	{
+		System.out.println("Test Case : This will log in into the application");
+	}
+	
 	@Test(priority=3, enabled=true, timeOut=2000,groups="Smoke")
 	public void loginWithInvalidCredentails()
 	{
 		System.out.println("Test Case : This will not log into the application");
-		Assert.fail();
+		//Assert.fail();
 	}
 	
 	@Test(priority=1)
 	public void registration()
 	{
 		System.out.println("Test Case : This will create a new user");
-		Assert.fail();
 	}
 	
 	@Test(priority=4, dependsOnGroups="Smoke", alwaysRun=true, invocationCount=10)

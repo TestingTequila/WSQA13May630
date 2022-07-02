@@ -3,13 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="_23POMWithPFMAndTestNG._5Login">
+      <class name="_22testngDummyCode.LearningtestNg">
         <methods>
-          <include name="launchApplication"/>
-          <include name="Login"/>
-          <include name="closeApplication"/>
+          <include name="registration"/>
+          <include name="FillDb"/>
+          <include name="disconnectWithDb"/>
+          <include name="loginWithInvalidCredentails"/>
+          <include name="openBrowserAndEnterUrl"/>
+          <include name="connectToDb"/>
+          <include name="EmptyDb"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- _23POMWithPFMAndTestNG._5Login -->
+      </class> <!-- _22testngDummyCode.LearningtestNg -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
